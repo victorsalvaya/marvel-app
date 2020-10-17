@@ -1,0 +1,24 @@
+@font-face {
+    src: url('./fonts/marvel-font.woff2');
+    font-family: "Marvel-Regular";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Header h1 {
+    background-color: #951f23;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Marvel-Regular";
+    font-size: 4em;
+    font-weight: initial;
+    line-height: 1;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20%;
+}
+
+.Header h1:hover{
+    background-color: #fff;
+    color: #951f23;
+}

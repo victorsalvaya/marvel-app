@@ -1,14 +1,17 @@
 import React from 'react';
-import Routes from './routes';
-import GlobalStyle from './styles/global';
+import './App.css'
+import Intro from './components/Intro/index'
+import Header from './components/Header/index'
+import Card from './components/Card/index'
 
 function App() {
-  return (
-    <>
-      <Routes />
-      <GlobalStyle />
-    </>
-  );
-}
 
-export default App;
+    return (
+      <>
+        <Header></Header>
+        <Card></Card>
+      </>
+    );
+  }
+  
+  export default App;

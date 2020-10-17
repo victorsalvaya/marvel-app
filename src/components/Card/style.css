@@ -1,0 +1,47 @@
+.Card {
+    color: #fff;
+    height: 400px;
+    width: 250px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-color: #1e2639!important;
+    background-size: cover;
+    border: 10px solid rgba(0,0,0,.125)!important;
+    padding: 15px;
+    box-shadow: 3px 7px 3px 3px rgba(0,0,0,.15);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.Card:hover {
+    transform: scale(1.01);
+}
+
+.Card span.id{
+    position: absolute;
+    padding: 2px;
+    font-size: .9em;
+    background-color: #1a2132;
+    border: 2px solid #1a2132;
+    border-radius: .25rem;
+}
+
+.Card h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    bottom: 20px;
+    background-color: #1a2132;
+    border: 2px solid #1a2132;
+    border-radius: .25rem;
+}
+
+.Card h2, .Card h3 {
+    position: absolute;
+    padding: 7px;
+}
+
+.teste {
+    background-color: red;
+    height: 100vh;
+}
