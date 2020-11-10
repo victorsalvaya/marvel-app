@@ -1,1 +1,0 @@
-Projeto configurado com React, Axios, Prettier, EditorConfig, ESLint, React APP Polyfill (para estilização em navegadores IE9/ IE11/ EDGE)

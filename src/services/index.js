@@ -8,7 +8,7 @@ const md5 = '1f546908cfa2617f9001e37e0ca88a68'
 
 const serviceMarvel = {
     getPlanet() {
-       return axios.get(`http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}`, { params: { limit: 50, offset: 10 } })
+       return axios.get(`http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}`, { params: { limit: 100, offset: 10 } })
          
     }
 }
